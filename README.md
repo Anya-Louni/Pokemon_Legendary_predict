@@ -1,29 +1,24 @@
 Can Stats Predict if a Pokémon is Legendary?
-This project uses descriptive statistics to explore whether Pokémon battle stats can help predict Legendary status, working with a cleaned Pokédex dataset.
+<p align="center"> <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png" alt="Mewtwo sprite" width="96"/> </p>
+This notebook explores whether battle statistics alone can help predict if a Pokémon is Legendary. Using a cleaned Pokédex dataset, it analyzes stat distributions and builds a simple rule-based classifier.
 
 Features
-Data cleaning and preparation
+Cleaned and prepared Pokédex data
 
-Comparison of Legendary vs Non-Legendary stats
+Side-by-side stat comparisons for Legendaries vs Non-Legendaries
 
-Visualization of distributions and key stat differences
+Simple rule-based predictor
 
-Simple threshold-based rule for predicting Legendaries
-
-Discussion of false positives/negatives and future improvement directions
+Visual analysis and discussion of prediction errors
 
 Technologies
-Python
+Python (Pandas, NumPy)
 
-Pandas
+Matplotlib & Seaborn
 
-NumPy
+Jupyter Notebook
 
-Matplotlib
-
-Seaborn
-
-How to Run
+Usage
 Clone this repository
 
 Place Pokemon.csv in the same directory
@@ -31,7 +26,7 @@ Place Pokemon.csv in the same directory
 Open and run Legendary_predict.ipynb in Jupyter
 
 Credits
-Data: Kaggle Pokémon Dataset
+Dataset: Kaggle Pokémon Dataset
 
-Sprites: PokeAPI
+Sprite from PokeAPI
 
